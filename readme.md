@@ -8,3 +8,5 @@ This is **CodeMagico**
 # Live Preview 🌐
 # Quick Peek
 ![alt text](codemagico7.jpg)
+
+i am learning github
