@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="codenew.css">
+    <script src="https://kit.fontawesome.com/be3f490722.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="center">
+      <div class="topbar2">
+        <div class="logo2">
+          CodeMagico
+        </div>
+        <div class="buttons2">
+          <button class="gohome" onclick="document.location='new.html'">
+            <i class="fa-solid fa-house"></i> Go Home
+          </button>
+          <button class="twitter2" onclick="document.location='https://x.com/Divvvvvvv_'">
+            <i class="fa-brands fa-twitter"></i> Twitter
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="containerout" style="display: flex; justify-content: space-between;">
+      <div class="left">
+        <div style="display: flex; flex-direction: column;padding-left: 60px;padding-top: 50px;">
+          <div class="htmllogo">
+            <label><i class="fa-brands fa-html5"></i> HTML &#128296</label>
+          </div>
+          <div class="back1">
+            <textarea class="htmlw" id="html-code" onkeyup="run()"></textarea>
+          </div>
+        </div>
+        <br>
+        <div style="display: flex; flex-direction: column; padding-left: 60px;">
+          <div class="csslogo">
+            <label><i class="fa-brands fa-css"></i> CSS &#127912</label>
+          </div>
+          <div class="back1">
+            <textarea class="htmlw" id="css-code" onkeyup="run()"></textarea>
+          </div>
+        </div>
+        <br>
+        <div style="display: flex; flex-direction: column; padding-left: 60px;">
+          <div class="jslogo">
+            <label><i class="fa-brands fa-js"></i> JAVASCRIPT ⚙️</label>            
+          </div>
+          <div class="back1">
+            <textarea class="htmlw"  id="js-code" onkeyup="run()"></textarea>            
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div style="display: flex; flex-direction: column; padding-left: 60px;">
+          <div class="outputlogo">
+            <label><i class="fa-solid fa-display"></i> OUTPUT</label>
+          </div>
+          <div class="back2">
+            <iframe id="output"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="centerfooter">
+      <div class="footer2">
+        <div class="madewith2">
+          &#129668 Made with lot's of love <span class="heartemoji">&#x2665</span> and care <span>&#128519</span> by Divyansh Tulsiani. &#10024
+        </div>
+        <div class="sideicons2">
+          <a href="https://x.com/Divvvvvvv_"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      function run()
+      {
+          let htmlcode = document.getElementById("html-code").value;
+          let csscode = document.getElementById("css-code").value;
+          let jscode = document.getElementById("js-code").value;
+          let output = document.getElementById("output");
+
+          output.contentDocument.body.innerHTML = htmlcode + "<style>" + csscode + "<style/>";
+          output.contentWindow.eval(jscode);
+      }
+    </script>
+  </body>
+</html>
