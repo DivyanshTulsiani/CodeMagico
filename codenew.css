@@ -57,7 +57,7 @@ body{
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   height: 140px;
-  width: 510px;
+  width: 500px;
   border: none;
   position: relative;
 }
@@ -154,7 +154,7 @@ iframe{
   border: none;
   color: white;
   background-color: #1c1f2b;
-  width: 514px;
+  width: 505px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   height: 500px;
@@ -164,7 +164,7 @@ iframe textarea{
 }
 .back2{
   background-image: conic-gradient(blue,red);
-  width: 520px;
+  width: 515px;
   height: 510px;
   border-radius: 20px;
 }
