@@ -9,4 +9,4 @@ This is **CodeMagico**
 # Quick Peek
 ![alt text](codemagico7.jpg)
 
-i am learning github
+![alt text](second.jpg)
