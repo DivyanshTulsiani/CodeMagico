@@ -251,8 +251,17 @@ iframe textarea{
     display: flex;
     justify-content: center;
   }
+  .back1{
+    width: 460px;
+  }
+  .back1js{
+    width: 460px;
+  }
   /* .containerout{
     display: flex;
     justify-content: center;
   } */
+}
+@media only screen and (max-width: ){
+  
 }
