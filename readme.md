@@ -7,7 +7,7 @@ This is **CodeMagico**
 
 # Live Preview 🌐
 
-[title](codemagico.netlify.app)
+codemagico.netlify.app
 
 # Quick Peek
 ![alt text](codemagico7.jpg)
