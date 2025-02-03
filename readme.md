@@ -6,7 +6,9 @@ This is **CodeMagico**
 3. Easy to use
 
 # Live Preview 🌐
-	[title](codemagico.netlify.app)
+
+[title](codemagico.netlify.app)
+
 # Quick Peek
 ![alt text](codemagico7.jpg)
 
