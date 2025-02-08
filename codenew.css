@@ -84,6 +84,10 @@ body{
   animation: 7s;
   background-image: conic-gradient(transparent,blue);
 }
+.buttons2{
+  display: flex;
+
+}
 .logo2{
   padding-left: 10px;
   padding-top: 5px;
@@ -315,6 +319,40 @@ iframe textarea{
   .back1js{
     width: 100%;
     margin-right: 0px;
+  }
+  .twitter2 {
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: white;
+    background-color: rgb(49, 38, 163);
+    border-radius: 8px;
+    margin: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 52px;
+    border: none;
+    margin-left: -3px;
+    margin-right: 15px;
+    /* margin-right: 1.25rem; */
+  }
+  .gohome {
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: white;
+    background-color: rgb(49, 38, 163);
+    border-radius: 8px;
+    margin: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 52px;
+    border: none;
+  }
+  .logo2 {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10px;
   }
   /* .jslogo{
     width: 100%;
