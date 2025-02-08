@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
+  min-height: 100vh;
   background-color: #0b0d15;
   color: #a2a5b3;
   font-family: Poppins,sans-serif;
@@ -74,7 +75,7 @@ body{
 }
 .back1js{
   background-image: conic-gradient(blue,red);
-  margin-right: 150px;
+  /* margin-right: 150px; */
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -132,6 +133,7 @@ body{
 .right{
   display: flex;
   justify-content: center;
+  /* align-items: center;  */
 }
 
 .htmllogo{
@@ -154,7 +156,7 @@ body{
 }
 .jslogo{
   background-color: rgb(49, 38, 163);
-  margin-right: 155px;
+  /* margin-right: 155px; */
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 450px;
@@ -167,7 +169,7 @@ body{
   margin-right: 155px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 1000px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -241,7 +243,28 @@ iframe textarea{
 .heartemoji{
   color: red;
 }
-
+.inputelements{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 100%;
+  /* align-items: center; */
+}
+.inputelements2{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 100%;
+  /* align-items: center; */
+}
+.inputelements3{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: center;
+}
 @media only screen and (max-width: 1140px){
   .left{
     display: flex;
@@ -262,6 +285,38 @@ iframe textarea{
     justify-content: center;
   } */
 }
-@media only screen and (max-width: ){
-  
+/* @media only screen and (max-width: 500px){
+  body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100%;
+  }
+} */
+
+@media only screen and (max-width: 500px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .topbar2{
+    width: 100%;
+  }
+  iframe{
+    width: 100%;
+  }
+  .outputlogo{
+    width: 100%;
+  }
+  .back2{
+    width: 100%;
+  }
+  .back1js{
+    width: 100%;
+    margin-right: 0px;
+  }
+  /* .jslogo{
+    width: 100%;
+  } */
 }
