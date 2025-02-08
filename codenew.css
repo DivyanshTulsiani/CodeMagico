@@ -79,6 +79,7 @@ body{
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
+  width: 460px;
 }
 .back1:hover{
   animation: 7s;
@@ -317,7 +318,7 @@ iframe textarea{
     width: 100%;
   }
   .back1js{
-    width: 100%;
+    width: 96%;
     margin-right: 0px;
   }
   .twitter2 {
